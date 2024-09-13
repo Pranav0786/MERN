@@ -1,0 +1,38 @@
+(1) measure speed of code
+    performance.now()
+
+(2) how to write efficient and performing code
+(3) event loop 
+
+(1) Reflow
+    mathematical calculation dine by process while adding or deleting any element in DOM
+    slower process
+(2) Repaint
+    process of showing new screen layout px by px on our device 
+    faster than reflow
+
+use ---------- Document Fragment()
+                    - Virtual DOM   
+
+
+-------------------------------- The Call Stack --------------------------------------
+Single Threading
+    - processing one command at a time 
+    - js is single threaded language
+
+
+-------------------------------- Event Loop ------------------------------------------
+(1) call Stack
+(2) Browser
+(3) Event Queue
+
+-------------------------------- More -------------------------------
+(1) async code -> js event loop
+(2) any async code is handle by brower
+(3) when async code is ready to run it will go to event Queue from brower and wait for stack to get empty
+(4) when call stack is get empty async func get executed
+
+-------------------------------- SetTimeOut() ---------------------------
+
+
+

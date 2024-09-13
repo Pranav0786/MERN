@@ -1,0 +1,24 @@
+------------------------ features of async code -----------------------
+(1) clean & concise
+(2) better error handling
+(3) easier bugging
+
+
+---------------------- Promise ---------------------- 
+    - The Promise object represents the eventual completion (or failure) of an asynchronous 
+        operation and its resulting value.
+    -
+    (1) pending   : initial state, neither fulfilled nor rejected.
+    (2) fulfilled : meaning that the operation was completed successfully.
+    (3) rejected  : meaning that the operation failed.
+
+(1) then() -> task after Promise fulfilled
+(2) catch  -> if errer get occured 
+
+
+----------------------- API ------------------------------------
+    - application programming interface
+
+
+
+

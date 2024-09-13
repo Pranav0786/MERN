@@ -1,0 +1,15 @@
+
+
+---------------------- Context API -------------------------------------
+(1) createContext() 
+(2) provider
+(3) consume
+
+
+--------------- Redux ---------------------
+- use for state management
+- slices of global state
+createSlice()
+    (1) name of slices
+    (2) initial state of slices
+    (3) reducer

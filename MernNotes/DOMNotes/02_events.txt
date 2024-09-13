@@ -1,0 +1,42 @@
+-------------------Browser Events--------------------------------
+Invisible
+
+turn on 
+    monitorEvents(document) ; --visible
+turn off
+    unmonitorEvents() ;
+
+## EventListener 
+listener -- define the action taken by event 
+EventTarget <--  Node <-- Element 
+    (1) EventTarget
+        top level interface (blueprint) 
+        implemented by objects that can receive events  
+        and may have listeners for them 
+        (1) addEventListner() 
+            listen to event 
+            respond to event 
+            hook into the event 
+            eg . 
+            <event-target>.addEventListner(<event-to-listen-for>,<func-to-run-when-event-happened>)
+            document.addEventListner('click',function(){
+                console.log('I clicked on document') ;
+            });
+        (2) removeEventListner()
+            - same target
+            - same type
+            - same function
+        (3) dispatchEvent()
+
+
+## Phases of Event
+(1) Capturing Phase
+(2) At target Phase
+(3) Bubbling Phase
+    - By default EventListener starts working in Bubbling Phase
+
+## Event Object
+- when an event occurs, addEventListner function gets event-Object which has lots of info
+  
+---------------------- Prevent Default Action -------------------------
+

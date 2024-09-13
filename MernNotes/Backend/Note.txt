@@ -1,0 +1,63 @@
+---------------------- express --------------------
+    instance of node
+    Framework
+    ith the help of it create backend application
+    creates server side application 
+    handle http request and responses
+    make easy to work with nodejs
+
+-------------------- MongoDB -------------------------
+- No SQL database
+- data stored in form of
+    (1) documents
+    (2) key-value pairs
+    (3) graphs
+
+-------------------- Mongoose ---------------------
+- Object Data Modeling (ODM) library 
+- provide connection between API and MongoDB
+- middleware 
+- connect application with database
+
+
+------------------ Optimal Folder Structure ------------------
+- MVC Model View Controller
+    (1) models
+        class -> properties or behavior
+        uses schema 
+        contains properties of all schema
+    (2) controllers
+        business logic of project
+        contains handler (function) with manages all control function
+    (3) Views
+        contains UI part of application
+
+
+http request -> Routes -> Controllers <- View
+                            ^
+                            |
+                            > Models <-> Database
+
+
+------------------------- Authentication & Authorization --------------------------
+Authentication => 
+    - idendity verification
+
+Authorization => 
+    - access rights
+    - permission
+
+
+Connection bet server ans MongoDB:
+    => Server(data->object) -> mongoose(ODM) -> MongoDB(data->document)
+
+
+
+
+
+
+
+
+
+
+

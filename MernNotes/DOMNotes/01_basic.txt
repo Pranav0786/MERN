@@ -1,0 +1,112 @@
+## getElementById() method
+    The getElementById() method of the Document interface returns an Element object representing the element 
+    whose id property matches the specified string. 
+    Since element IDs are required to be unique if specified, they're a useful way to get access to a specific element quickly.
+    If you need to get access to an element which doesn't have an ID, you can use querySelector() to find the element using any selector.
+    *Always called on document object ... return single object
+    eg. document.getElementById('content')
+
+## getElementsByClassName() method
+    The getElementsByClassName method of Document interface returns an array-like object of all child elements 
+    which have all of the given class name(s).
+    When called on the document object, the complete document is searched, including the root node.
+    You may also call getElementsByClassName() on any element; it will return only elements which are descendants 
+    of the specified root element with the given class name(s).
+    *Always called on document object ... return multiple items
+    *Return array like object ... HTMLCollection
+    eg. document.getElementsByClassName('hidden')
+
+## getElementsByTagName()
+    *Always called on document object ... return multiple items 
+
+## querySelector() / querySelectorAll() 
+    * class (.)
+    * tag ()
+    * id (#)
+    *called on document object
+
+
+## Update Exiting Content ------------------------------------------------
+(1) innerHTML
+    The Element property innerHTML gets or sets the HTML or XML markup contained within the element.
+    Render the tags
+(2) outerHTML
+(3) textContent
+    Treats tags as a text
+    Shows hidden part also
+(4) innertext
+    Does not show hidden text
+
+
+## Adding New Element -----------------------------------------------------
+(1) createElement()
+    let content = document.querySelector('.para') ;
+    let newpara = document.createElement('p') ;
+(2) AddingElement
+    content.appendChild(newpara) ;
+    %% Added last
+        eg.
+        (1)
+            let newpara = document.createElement('p') ;
+            content.appendChild(newpara)
+        (2)
+            let newpara = document.createElement('p') ;
+            let newtext = document.createTextNode('I am the text') ;
+            newpara.appendChild(newtext) ;
+            content.appendChild(newpara) ;
+        (3)
+            let mypara = document.createElement('p') ;
+            mypara.textContent = 'I am the text' ;
+            content.appendChild(mypara) ;
+
+    %% Added at position
+    (1) insertAdjacentHTML()
+        has to be called with 2 arguments
+        location/position , HTML text/content to be inserted
+    (2) location
+        (1) beforebegin()
+            previous siblling
+        (2) afterbegin()
+            first child
+        (3) beforend()
+            last child
+        (4) afterend()
+            following siblling
+        eg.
+        content.insertAdjacentHTML('beforebegin',newtext) ;
+    
+## Removing Element ------------------------------------------------
+(1) removeChild()
+    parent element has to be known
+    the chold element to be remove
+    eg
+    parent.removeChild(child) ;
+(2)
+    parent = childElement.parent() ;
+
+
+
+########### Changing CSS style using Js
+(1) .style
+    at a time single 
+    (1) content.style.color = 'red' ;
+(2) .cssText
+    multiple element
+    (2) content.cssText = 'color:green; font-size:4rem;' ;
+(3) .setAttribute
+    (3) content.setAttribute("style","color:white;") ;
+(4) .className
+    (4) content.
+(5) .classList
+    (1) add
+    (2) remove
+    (3) toggle
+        add if not present
+        remove if present
+    (4) content 
+        return true / false
+
+
+
+
+

@@ -1,0 +1,34 @@
+React => js library
+
+React is all about Components (function).
+
+Components => A reusable piece of code
+    - Custum HTML element
+    - 
+
+Js => imperative approach
+        - line by line 
+        - step by step
+        - more code as compare to React
+
+React => declarative approach
+        - Single page Application
+        - Dynamic change
+
+
+package.js =>
+        - dependencies
+        - scripts
+
+src =>
+(1) index.js 
+        - first file to execute
+        - entry point of React
+
+(2) App.js      
+        - first component in react
+
+
+(3) npm start =>
+        - convert code from user friendly to browser friendly
+        - react to js & html 
