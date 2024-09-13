@@ -1,0 +1,47 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,p{
+    color:olive;
+}
+
+h1{
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
+    width: 500px;
+    text-align: center;
+    height: 50px;
+}
+
+.first_para{
+    text-align: center;
+    background-color: blanchedalmond;
+    border: solid brown 3px;
+    width: 500px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.second_para{
+    background-color: aquamarine;
+    width: 500px;
+    border: solid brown 3px;
+    padding: 40px 20px 10px 30px ;
+}
+
+.third_para{
+    background-color: aqua;
+    width: 500px;
+    border: solid brown 3px;
+    padding: 50px;
+}
+
+span{
+    background-color: blanchedalmond;
+    border: solid brown 3px;
+    width: 500px;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vh;
+    height: 100vh;
+    background-color: beige;
+    border: 5px solid black;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid yellow;
+    position: relative;
+    animation-name: rightmovement;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    /* animation-direction: alternate; */
+    animation-fill-mode: none;
+}
+
+@keyframes rightmovement{
+    from{
+        top: 0;
+        left: 0;
+
+    }
+    to{
+        top: 0;
+        left: 300px;
+    }
+}

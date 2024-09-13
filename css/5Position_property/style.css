@@ -1,0 +1,29 @@
+
+img{
+    margin: 10px;
+}
+
+.container{
+    position: relative;
+    border: 2px black solid;
+    height: 8000px;
+    background-color: blanchedalmond;
+}
+
+.img1{
+    position: absolute;
+    top: 100px;
+}
+
+.img4{
+    position: fixed;
+}
+
+.img3{
+    position: sticky;
+    top: 100px;
+}
+.box{
+    background-color: blueviolet;
+    height: 5000px;
+}

@@ -1,0 +1,15 @@
+.box{
+    height: 40px;
+    width: 40px;
+    background-color:antiquewhite;
+    border: 2px solid black ;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+
+}
+
+.box:hover{
+    width: 1200px;
+    background-color: aqua;
+}

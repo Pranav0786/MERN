@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+    display: grid;
+    gap: 1rem;
+    background-color: rgb(147, 145, 145);
+
+    grid-template-areas: 
+        "header header header"
+        "sidebar content1 content1"
+        "sidebar content2 content3"
+        "footer footer footer"
+    ;
+}
+.item{
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: rgb(31, 31, 87);
+    color: white;
+}
+
+#Header{
+    grid-area: header;
+}
+#SideBar{
+    grid-area: sidebar;
+}
+#Content1{
+    grid-area: content1;
+}
+#Content2{
+    grid-area: content2;
+}
+#Content3{
+    grid-area: content3;
+}
+#Footer{
+    grid-area: footer;
+}

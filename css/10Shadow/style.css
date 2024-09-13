@@ -1,0 +1,38 @@
+:root{
+    --primary-color: red ;
+    --custom-width: 330px;
+}
+
+.container{
+    background-color: beige;
+    height: 650px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    border: 1px solid brown;
+    margin: 5px;
+    padding: 5px;
+    /* box-shadow: 20px 15px brown; */
+    box-shadow: 10px 15px 50px brown;
+}
+
+img{
+    width: 200px;
+    align-self:center;
+}
+
+#head1{
+    color: darkgray;
+    text-shadow: 5px 5px 2px white , red 2px 2px 1px ;
+    text-align: center;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    padding: 5rem;
+    background-color: rgb(148, 139, 139);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.item{
+    padding: 2rem;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(52, 52, 170);
+    border: 2px solid black;
+
+}
+
+#rotateX:hover{
+    transform: rotateX(45deg);
+}
+#rotateY:hover{
+    transform: rotateY(45deg);
+}
+
+#rotateZ:hover{
+    transform: rotateZ(45deg);
+}
+#translateX:hover{
+    transform: translateX(100px);
+}
+#translateY:hover{
+    transform: translateY(100px);
+}
+#translateZ:hover{
+    transform:perspective(300px) translateZ(-100px);
+}
+#scaleX:hover{
+    transform: scaleX(1.5);
+}
+#scaleY:hover{
+    transform: scaleY(1.5);
+}
+#scaleZ:hover{
+    transform:perspective(300px) scale(2) rotateY(30deg);
+}

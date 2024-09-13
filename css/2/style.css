@@ -1,0 +1,19 @@
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+#first{
+    background-color: yellow;
+}
+#second{
+    background-color: rgb(94, 121, 227);
+}
+#third{
+    background-color: rgba(217, 76, 205, 0.499);
+}
+
+.forth_para{
+    background-color: #227bdab5;
+}

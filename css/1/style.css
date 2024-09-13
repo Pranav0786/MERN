@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    background-color: cadetblue;
+    color:cyan;
+}
+p{
+    color: brown;
+}
+
+#article1{
+    background-color: darkgray;
+}
+
+.para_class{
+    background-color:lightslategray;
+    color: white;
+}
+
+p,article{
+    width: 500px;
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+span{
+    border: solid blueviolet 2px ;
+
+    margin: 5px;
+    padding: 5px;
+    display: inline-block ;
+}
